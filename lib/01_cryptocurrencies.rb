@@ -22,7 +22,7 @@ puts "2. La crypto-monnaie valant le moins est #{min_key} et vaut #{min_value}$.
 
 #Quel est le nombre de crypto-monnaie(s) contenant le mot 'coin' dans leur nom ?
 coin = my_hash.count {|key, array| key =~ /[cC][Oo][Ii][nN]/}
-puts "3. Il y a #{coin} crypto-monnaies contenant le mot 'coin' dans leur nom."
+puts "3. Il y a #{coin} crypto-monnaies contenant le mot 'coin' sans leur nom."
 
 #Quelles sont les devises dont le cours est inférieur à 6000$ ?
 selection = my_hash.select{|key, value| value <= 6000}
